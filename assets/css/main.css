@@ -4,6 +4,52 @@ body{
 }
 /* Header */
 
+/*Navbar*/
+.navbar.navbar-default{
+background-color: black;
+}
+
+.list-menu ul li{
+	padding: 1em;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: gray;
+	font-size: 18px;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: white;
+}
+
+/*logo provisorio*/
+.navbar-brand{
+	display: flex;
+    justify-content: flex-start;
+    padding-right: 21%;
+}
+
+#game{
+	font-family: 'Baloo Paaji', cursive;
+    color: #FE1200;
+    font-size: 200%;
+    margin: 10px;
+}
+
+#planet{
+	font-family: 'Baloo Paaji', cursive;
+    color: #F9FA06 ;
+    font-size: 200%;
+    margin: 10px 4px;
+}
+
+/*Icono*/
+.fa{
+	color: white;
+}
+
+
+
 /* Catálogo */
 
 /* Footer */
