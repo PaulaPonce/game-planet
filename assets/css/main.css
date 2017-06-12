@@ -7,27 +7,30 @@ body{
 /* Catálogo */
 
 /* Footer /Contacto*/
+
+
 .contacto{
-	background-color: #27C1B9;
-	width: 100%;
+	background-image:url(../img/contacto/fondo2.jpg);
+
+}
+.color-contacto{
+	color:white;
 }
 
-.control{
-	width: 85px;
+.redes{
+	padding-top: 51px;
+}
+.mariobros{
+	width: 260px;
+	margin-bottom: 20px;
 }
 
-.pago{
-	background-color: #1abc9c;
-}
 
-.pago img{
-	width: 230px;
-}
-
+/*Redes sociales*/
 ul li{
 
 	display: inline-block;
-	padding: 20px;
+	padding: 12px;
 
 }
 
@@ -39,7 +42,34 @@ ul li a {
 	cursor:pointer;
 
 }
+.apps{
+	padding-left: 1px;
+}
 
+/*formas*/
+.formas{
+	background-color: #95a5a6;
+}
+.fedEx{
+	width: 100px;
+}
+
+.ac{
+	width: 500px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+/*FAQ'S*/
+.faq {
+    background-color:#1abc9c;
+    height: 100vh;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/*FOOTER*/
 .footer{
 	background-color:#bdc3c7;
 }
