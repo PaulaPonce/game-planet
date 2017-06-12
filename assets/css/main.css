@@ -6,4 +6,16 @@ body{
 
 /* Catálogo */
 
-/* Footer */
+/* Footer /Contacto*/
+.contacto{
+	background-color: #27C1B9;
+	width: 100%;
+}
+
+.hongo{
+	width: 85px;
+}
+
+.footer{
+	background-color:#bdc3c7;
+}
