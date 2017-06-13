@@ -4,9 +4,10 @@
 	cursor: pointer;
 	background-color: #FFB300;
 	color: black;
-	padding-top: 20px;
+	padding-top: 30px;
 	padding-bottom: 30px;
 	text-align: center;
+	height: 470px;
 }
 .about h1 {
 	padding: 10px 0;
@@ -52,7 +53,8 @@
 }
 .about .lead{
 	color: black;
-	font-size: 13px;
-	text-align: center;
+	font-size: 15px;
+	text-align: justify;
+    text-justify: inter-word;
 }
 /*  fin About section*/
