@@ -243,3 +243,7 @@ ul li a {
 	padding: 20px;
 }
 
+.modal-body, .btn-color {
+    background-color: #FDE700;
+}
+
