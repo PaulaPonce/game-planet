@@ -10,4 +10,15 @@ body{
     height: 300px;
 }
 
+.list-style{
+	padding: 0;
+	margin-bottom: -1px;
+	background-color: #fff;
+	border: none;
+}
+
+.list-left{
+	text-align: left;
+}
+
 /* Footer */
