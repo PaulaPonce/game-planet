@@ -17,7 +17,11 @@ body{
 	margin: 0;
 	padding: 0;
 }
-
+.imagenc{
+	margin: 0;
+	max-width: 100%;
+	width: 100%;
+}
 
 /* Catálogo */
 
