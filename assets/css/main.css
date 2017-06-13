@@ -28,17 +28,13 @@ body{
 /* About section*/
 .about{
 	cursor: pointer;
-	background-color: #FFB300;
+	background-color: #FDE700;
 	color: black;
 	padding-top: 20px;
 	padding-bottom: 30px;
 	text-align: center;
-body{
-    font-family: 'Roboto', sans-serif;
-	overflow-x: hidden;
-	margin:0;
-	padding:0;
 }
+
 .about h1 {
 	padding: 15px 0;
 	margin-bottom: 20px;
@@ -82,6 +78,11 @@ body{
 	-o-transform: scale(1.1,1.1)  ;
 	transform: scale(1.1,1.1) ;
 }
+
+#catalogo1 {
+ background-color: rgba(253, 231, 0, 0.5);
+}
+
 .about .lead{
 	color: black;
 	font-size: 15px;
@@ -92,6 +93,7 @@ body{
 /*Navbar*/
 .navbar.navbar-default{
 background-color: black;
+margin: 0;
 }
 
 .list-menu ul li{
@@ -208,7 +210,7 @@ ul li a {
 	cursor:pointer;
 
 }
-a:hover{
+.cosita.fa:hover{
 	color: #FDE700;
 }
 .apps{
