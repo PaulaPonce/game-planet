@@ -4,13 +4,12 @@
 	cursor: pointer;
 	background-color: #FFB300;
 	color: black;
-	padding-top: 30px;
+	padding-top: 20px;
 	padding-bottom: 30px;
 	text-align: center;
-	height: 470px;
 }
 .about h1 {
-	padding: 10px 0;
+	padding: 15px 0;
 	margin-bottom: 20px;
 }
 
