@@ -1,11 +1,69 @@
+
+
+/* About section*/
+.about{
+	cursor: pointer;
+	background-color: #FFB300;
+	color: black;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	text-align: center;
 body{
     font-family: 'Roboto', sans-serif;
 	overflow-x: hidden;
 	margin:0;
 	padding:0;
 }
-/* Header */
+.about h1 {
+	padding: 15px 0;
+	margin-bottom: 20px;
+}
 
+.about span { /* estilos iconos sin presionar*/
+	display: block;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	margin:auto;
+	border-radius:50%;  
+	font-size: 40px;
+	color: #FFFFFF;
+	opacity: 0.7;
+	background-color: #000000;/*color icono al rotar*/
+	border: 2px solid #DD2C00;
+
+
+	webkit-transition:all .8s ease; /*El valor ease es el valor por defecto;El valor predeterminado; la transición comienza lentamente, crece rápidamente y luego se retrasa de nuevo*/
+ 	moz-transition:all .8s ease;
+ 	os-transition:all .8s ease;
+ 	transition:all .8s ease;
+
+}
+.about-item:hover span{ /* estilos iconos al presionar*/
+	opacity: 1;	
+	border: 2px solid #FFB300;
+	font-size: 40px; /*tamaño del icono*/
+
+	-webkit-transform: scale(1.1,1.1) rotate(360deg) ;
+	-moz-transform: scale(1.1,1.1) rotate(360deg) ;
+	-o-transform: scale(1.1,1.1) rotate(360deg) ;
+	transform: scale(1.1,1.1) rotate(360deg) ;
+}
+.about-item:hover h2{
+	opacity: 1;
+	color: #311B92;
+	-webkit-transform: scale(1.1,1.1)  ;
+	-moz-transform: scale(1.1,1.1)  ;
+	-o-transform: scale(1.1,1.1)  ;
+	transform: scale(1.1,1.1) ;
+}
+.about .lead{
+	color: black;
+	font-size: 15px;
+	text-align: justify;
+    text-justify: inter-word;
+}
+/*  fin About section*/
 /*Navbar*/
 .navbar.navbar-default{
 background-color: black;
@@ -157,3 +215,4 @@ a:hover{
 	background-color:#bdc3c7;
 	padding: 20px;
 }
+
