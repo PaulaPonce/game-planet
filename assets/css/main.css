@@ -5,5 +5,9 @@ body{
 /* Header */
 
 /* Catálogo */
+.catalogo img{
+    width: 100%;
+    height: 300px;
+}
 
 /* Footer */
