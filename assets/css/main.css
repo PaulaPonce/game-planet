@@ -1,6 +1,8 @@
 body{
     font-family: 'Roboto', sans-serif;
-
+	overflow-x: hidden;
+	margin:0;
+	padding:0;
 }
 /* Header */
 
@@ -9,8 +11,21 @@ body{
 /*FORMAS*/
 .formas{
 	background-color: whitesmoke;
+	height: 100%;
 }
-/* Footer /Contacto*/
+
+.fedEx{
+	width: 100px;
+}
+.pagos{
+	width: 500px;
+	padding-bottom: 20px;
+}
+
+.star{
+	width: 100px;
+}
+/*Contacto*/
 .contacto{
 	background-image:url(../img/contacto/fondo2.jpg);
 
