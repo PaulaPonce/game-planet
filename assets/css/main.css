@@ -63,10 +63,16 @@ ul li a {
 /*FAQ'S*/
 .faq {
     background-color:#FDE700;
-    height: 100vh;
     width: 100%;
     background-size: 100%;
     background-repeat: no-repeat;
+    padding:20px;
+}
+
+.title-faq {
+    font-family: 'Bangers', cursive;
+    font-size: 65px;
+    padding-top: 20px;
 }
 
 /*FOOTER*/
