@@ -1,8 +1,56 @@
 body{
     font-family: 'Roboto', sans-serif;
-
+	overflow-x: hidden;
+	margin:0;
+	padding:0;
 }
 /* Header */
+
+/*Navbar*/
+.navbar.navbar-default{
+background-color: black;
+}
+
+.list-menu ul li{
+	padding: 1em;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: gray;
+	font-size: 18px;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: white;
+}
+
+/*logo provisorio*/
+.navbar-brand{
+	display: flex;
+    justify-content: flex-start;
+    padding-right: 21%;
+}
+
+#game{
+	font-family: 'Baloo Paaji', cursive;
+    color: #FE1200;
+    font-size: 200%;
+    margin: 10px;
+}
+
+#planet{
+	font-family: 'Baloo Paaji', cursive;
+    color: #F9FA06 ;
+    font-size: 200%;
+    margin: 10px 4px;
+}
+
+/*Icono*/
+.fa{
+	color: white;
+}
+
+
 
 /* Catálogo */
 .catalogo img{
@@ -21,4 +69,91 @@ body{
 	text-align: left;
 }
 
-/* Footer */
+
+
+
+
+/*SECTION CONTACTO - JOSEFA HERRERA*/
+/*FORMAS*/
+.formas{
+	background-color: whitesmoke;
+	height: 100%;
+}
+
+.fedEx{
+	width: 100px;
+}
+.pagos{
+	width: 500px;
+	padding-bottom: 20px;
+}
+
+.star{
+	width: 100px;
+}
+/*Contacto*/
+.contacto{
+	background-image:url(../img/contacto/fondo2.jpg);
+
+}
+.color-contacto{
+	color:white;
+}
+
+.redes{
+	padding-top: 51px;
+}
+.mariobros{
+	width: 371px;
+	margin-bottom: 20px;
+}
+
+
+/*Redes sociales*/
+ul li{
+
+	display: inline-block;
+	padding: 12px;
+
+}
+
+ul li a {
+	display: inline-block;
+	color:#fff;
+	text-align: center;
+	text-decoration: none;
+	cursor:pointer;
+
+}
+a:hover{
+	color: #FDE700;
+}
+.apps{
+	padding-left: 1px;
+}
+
+
+/*FAQ'S*/
+.faq {
+    background-color:#FDE700;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding:20px;
+}
+
+.faq h3:hover{
+	color:#fff;
+}
+
+.title-faq {
+    font-family: 'Bangers', cursive;
+    font-size: 65px;
+    padding-top: 20px;
+}
+
+/*FOOTER*/
+.footer{
+	background-color:#bdc3c7;
+	padding: 20px;
+}
